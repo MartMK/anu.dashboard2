@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <!-- Required meta tags -->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">  
+     <title>Survey</title>
+    <!-- <link rel="stylesheet" href="./css/bootstrap.min.css"> -->
+    <!-- For material design -->
+    <!-- Font Awesome -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Assistant">
+<!-- MDB -->
+<link rel="stylesheet" href="./css/bootstrap.min.css">
+<link rel="stylesheet" href="./css/mdb.min.css"/>
+
+<link rel="stylesheet" href="./css/style.css">
+
+
+<script src="./js/jquery-3.6.0.min.js"></script>
+<script src="./js/bootstrap.js"></script>
+<script src="./js/mdb.min.js"></script>
+
+<!-- Material design -->
+<!-- MDB -->
+
+
+
+
+</head>
+<body>
+<header>
+
+</header>
+
+
+
+<hr>
+<div id="piez">  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="card">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="./images/Titles.drawio2.png">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Accordion Item #1
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Accordion Item #2
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Accordion Item #3
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+              </div>
+             
+            
+            
+            
+            
+            
+            
+            
+            </div>
+            <div class="col-md-6">
+              <canvas id="myChart" height="300", width="300"></canvas>
+              <script>
+
+                var ctx = document.getElementById("myChart");
+                var myChart = new Chart(ctx, {
+                  type: 'bar',
+                  data: {
+                    labels: ['18-29', '30-59', '60+'],
+                    datasets: [{
+                      label: 'Age Group Participation',
+                      data: [9.928, 19.7268, 4.3452],
+                      backgroundColor: [
+                        'rgba(64, 72, 152)',
+                        'rgba(155, 162, 232)',
+                        'rgba(122,126,170)'
+                      ],
+                      borderColor: [
+                        'rgba(64, 72, 152 ,1)',
+                        'rgba(155,162,232, 1)',
+                        'rgba(122,126,170, 1)'
+                        
+                      ],
+                      borderWidth: 1
+                    }]
+                  },
+                  options: {
+                     //cutoutPercentage: 40,
+                    responsive: false,
+                    showAllTooltips: true
+                
+                  }
+                });
+                
+                          </script>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+
+
+
+
+      <div class="col-md-6"> 
+          
+        <!-- Image Map Generated by http://www.image-map.net/ -->
+
+
+
+
+
+
+
+</div>
+      
+    </div>
+  </div>
+</div>
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer></footer>
+</body>
+
+</html>
+
+
+
+
+
+
+

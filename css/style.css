@@ -1,0 +1,143 @@
+body{
+    overflow-x:hidden;
+    font-family: Assistant;
+}
+
+
+#title{
+    
+    height: 15vh;
+    background-image:url(../images/rsz_watercolor_with_blue_detailed_background.jpg);
+    background-repeat: no-repeat;
+   
+    
+}
+#title h2{
+    padding-top: 35px;
+    text-align: center;;
+}
+.table{
+    overflow-x: scroll;
+}
+
+#sam_coll{
+    height: 10vh;
+    width: 100%;
+    background-color: violet;
+}
+#myChart{
+    margin-top: 15vh;
+    margin: auto;
+    padding: auto;
+    position: relative;
+}
+#gender{
+    height: auto;
+    width: 100%;
+    background-image: url(../images/ca.drawio.png);
+    background-size: cover;
+    background-position: center;
+}
+#line-section {
+    
+}
+#line-section img{
+    margin: 5px;
+}
+.sam_coll{
+    margin-top: 20px;
+}
+#piez1{
+    margin: 40px;
+    height: auto;
+    width: 100;
+   
+    
+}
+#piez{
+    margin-top: 50px;
+    height: auto;
+    width: 100;
+    
+}
+#gen-card{
+    margin: 20px;
+    padding: 15px;
+}
+.card{
+    padding: 18px;
+}
+#accordionExample{
+    margin: 20px;
+}
+#w_distance{
+    margin-top: 40px;
+}
+#pat{
+    margin-top: 40px;
+}
+
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {
+    #line-chartcanvas{
+        min-height: 550px !important;
+    }
+
+ }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {  }
+
+#intro{
+    margin:40px;
+
+}
+#intro h4{
+    padding-top: 2px;
+}
+#info_age{
+    padding-top: 40px;
+
+
+}
+
+#travel{
+    text-align: right;
+}
+#myChart3{
+    margin-top: 40px;
+    
+}
+
+#map{
+    position: absolute;
+    height: 70vh;
+}
+.card{
+    width: 100%;
+    
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+}
+#gen_img{
+    height: 60vh;
+    width: 100%;
+    background-image: url(../images/Gender.drawio.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#age_img{
+    height: 60vh;
+    width: 100%;
+    background-image: url(../images/Ree.drawio.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
